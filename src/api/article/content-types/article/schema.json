@@ -68,6 +68,10 @@
     },
     "readingTime": {
       "type": "string"
+    },
+    "isMainBanner": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
