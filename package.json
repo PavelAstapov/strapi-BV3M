@@ -22,6 +22,7 @@
     "strapi-plugin-comments": "^2.2.4",
     "strapi-plugin-cookie-manager": "^1.0.8",
     "strapi-plugin-menus": "^1.2.1",
+    "strapi-plugin-populate-deep": "^2.0.0",
     "strapi-plugin-publisher": "^1.1.4",
     "strapi-plugin-react-editorjs": "^2.0.2",
     "strapi-plugin-sitemap": "^2.0.9"

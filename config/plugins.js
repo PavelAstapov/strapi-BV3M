@@ -52,11 +52,16 @@ module.exports = ({ env }) => ({
         endpoint: '/graphql',
         shadowCRUD: true,
         playgroundAlways: false,
-        depthLimit: 7,
+        depthLimit: 20,
         amountLimit: 100,
         apolloServer: {
           tracing: false,
         },
       },
+    },
+    'strapi-plugin-populate-deep': {
+      config: {
+        defaultDepth: 5,
+      }
     },
   });
