@@ -43,11 +43,6 @@
       "repeatable": false,
       "component": "shared.seo"
     },
-    "Related": {
-      "type": "component",
-      "repeatable": true,
-      "component": "list.related"
-    },
     "category": {
       "type": "enumeration",
       "enum": [
@@ -69,9 +64,17 @@
     "readingTime": {
       "type": "string"
     },
-    "isMainBanner": {
-      "type": "boolean",
-      "default": false
+    "articles": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::article.article",
+      "inversedBy": "relatedArticles"
+    },
+    "relatedArticles": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::article.article",
+      "inversedBy": "articles"
     }
   }
 }
