@@ -75,6 +75,11 @@
       "relation": "manyToMany",
       "target": "api::article.article",
       "inversedBy": "articles"
+    },
+    "previewText": {
+      "type": "text",
+      "required": true,
+      "maxLength": 100
     }
   }
 }
