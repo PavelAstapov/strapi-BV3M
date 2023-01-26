@@ -47,6 +47,7 @@ module.exports = ({ env }) => ({
     publisher: {
       enabled: true,
     },
+    'navigation': { enabled: true },
     graphql: {
       config: {
         endpoint: '/graphql',
