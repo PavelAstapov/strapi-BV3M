@@ -68,7 +68,7 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::article.article",
-      "inversedBy": "relatedArticles"
+      "mappedBy": "relatedArticles"
     },
     "relatedArticles": {
       "type": "relation",

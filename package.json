@@ -11,24 +11,25 @@
   },
   "dependencies": {
     "@strapi-newsletter/strapi": "^0.1.2",
-    "@strapi/plugin-graphql": "4.5.6",
-    "@strapi/plugin-i18n": "4.5.6",
+    "@strapi/plugin-graphql": "4.6.0",
+    "@strapi/plugin-i18n": "4.6.0",
     "@strapi/plugin-seo": "^1.7.7",
-    "@strapi/plugin-users-permissions": "4.5.6",
-    "@strapi/provider-upload-cloudinary": "4.5.6",
-    "@strapi/strapi": "4.5.6",
+    "@strapi/plugin-users-permissions": "4.6.0",
+    "@strapi/provider-upload-cloudinary": "4.6.0",
+    "@strapi/strapi": "4.6.0",
     "pg": "8.8.0",
     "reading-time": "^1.5.0",
     "strapi-plugin-comments": "^2.2.4",
     "strapi-plugin-cookie-manager": "^1.0.8",
     "strapi-plugin-menus": "^1.2.1",
+    "strapi-plugin-navigation": "^2.2.3",
     "strapi-plugin-populate-deep": "^2.0.0",
     "strapi-plugin-publisher": "^1.1.4",
     "strapi-plugin-react-editorjs": "^2.0.2",
     "strapi-plugin-sitemap": "^2.0.9"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Pavel Astapov"
   },
   "strapi": {
     "uuid": "35d7a084-3088-4d0b-869e-f503693ee8e5"
