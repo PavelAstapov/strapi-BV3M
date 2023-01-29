@@ -19,9 +19,6 @@
     "jobTitle": {
       "type": "string"
     },
-    "description": {
-      "type": "richtext"
-    },
     "Expertise": {
       "type": "component",
       "repeatable": true,
@@ -43,6 +40,14 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "url": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "description": {
+      "type": "text",
+      "required": true
     }
   }
 }

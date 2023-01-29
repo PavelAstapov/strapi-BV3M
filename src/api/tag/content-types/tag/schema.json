@@ -4,14 +4,15 @@
   "info": {
     "singularName": "tag",
     "pluralName": "tags",
-    "displayName": "Tags"
+    "displayName": "Tags",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
-    "Tag": {
+    "tag": {
       "type": "string",
       "required": true
     },
@@ -19,6 +20,13 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.seo"
+    },
+    "description": {
+      "type": "text"
+    },
+    "url": {
+      "type": "uid",
+      "required": true
     }
   }
 }
