@@ -1,7 +1,8 @@
 {
   "collectionName": "components_shared_seos",
   "info": {
-    "displayName": "seo"
+    "displayName": "seo",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -34,16 +35,6 @@
     "keywords": {
       "type": "text",
       "regex": "[^,]+"
-    },
-    "metaRobots": {
-      "type": "string",
-      "regex": "[^,]+"
-    },
-    "structuredData": {
-      "type": "json"
-    },
-    "metaViewport": {
-      "type": "string"
     },
     "canonicalURL": {
       "type": "string"
