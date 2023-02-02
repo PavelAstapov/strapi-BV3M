@@ -28,12 +28,6 @@
       "type": "uid",
       "required": true,
       "targetField": "tag"
-    },
-    "articles": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::article.article",
-      "mappedBy": "tags"
     }
   }
 }
