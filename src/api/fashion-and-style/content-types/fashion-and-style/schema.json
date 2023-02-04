@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "fashion_and_styles",
+  "info": {
+    "singularName": "fashion-and-style",
+    "pluralName": "fashion-and-styles",
+    "displayName": "Fashion & style"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

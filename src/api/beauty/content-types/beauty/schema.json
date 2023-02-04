@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "beauties",
+  "info": {
+    "singularName": "beauty",
+    "pluralName": "beauties",
+    "displayName": "Beauty",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

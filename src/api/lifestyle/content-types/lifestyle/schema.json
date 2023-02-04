@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "lifestyles",
+  "info": {
+    "singularName": "lifestyle",
+    "pluralName": "lifestyles",
+    "displayName": "Lifestyle"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}
