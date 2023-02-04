@@ -48,6 +48,11 @@ module.exports = ({ env }) => ({
       enabled: true,
     },
     'navigation': { enabled: true },
+    'strapi-plugin-populate-deep': {
+      config: {
+        defaultDepth: 5,
+      }
+    },
     graphql: {
       config: {
         endpoint: '/graphql',
@@ -59,10 +64,5 @@ module.exports = ({ env }) => ({
           tracing: false,
         },
       },
-    },
-    'strapi-plugin-populate-deep': {
-      config: {
-        defaultDepth: 5,
-      }
     },
   });
