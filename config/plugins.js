@@ -18,29 +18,24 @@ module.exports = ({ env }) => ({
         },
       },
     },
-    comments: {
-      enabled: true,
-      config: {
-        badWords: false,
-        moderatorRoles: ["Authenticated"],
-        approvalFlow: ["api::page.page"],
-        entryLabel: {
-          "*": ["Title", "title", "Name", "name", "Subject", "subject"],
-          "api::page.page": ["MyField"],
-        },
-        reportReasons: {
-          MY_CUSTOM_REASON: "MY_CUSTOM_REASON",
-        },
-        gql: {
-          // ...
-        },
-      },
-    },
-    menus: {
-      config: {
-        maxDepth: 3,
-      },
-    },
+    // comments: {
+    //   enabled: true,
+    //   config: {
+    //     badWords: false,
+    //     moderatorRoles: ["Authenticated"],
+    //     approvalFlow: ["api::page.page"],
+    //     entryLabel: {
+    //       "*": ["Title", "title", "Name", "name", "Subject", "subject"],
+    //       "api::page.page": ["MyField"],
+    //     },
+    //     reportReasons: {
+    //       MY_CUSTOM_REASON: "MY_CUSTOM_REASON",
+    //     },
+    //     gql: {
+    //       // ...
+    //     },
+    //   },
+    // },
     seo: {
       enabled: true,
     },
