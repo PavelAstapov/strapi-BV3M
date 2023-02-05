@@ -21,6 +21,7 @@
     "reading-time": "^1.5.0",
     "strapi-plugin-comments": "^2.2.4",
     "strapi-plugin-cookie-manager": "^1.0.8",
+    "strapi-plugin-ezforms": "^0.1.5",
     "strapi-plugin-navigation": "^2.2.3",
     "strapi-plugin-populate-deep": "^2.0.0",
     "strapi-plugin-publisher": "^1.1.4",
