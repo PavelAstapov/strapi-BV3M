@@ -38,6 +38,23 @@ module.exports = ({ env }) => ({
         defaultDepth: 5,
       }
     },
+    ezforms:{
+        config:{
+          captchaProvider: {
+            name: 'none',
+          },
+          notificationProviders: [
+            {
+              name: 'email',
+              enabled: true,
+              config: {
+                subject: "Mail from Next.js & Strapi", // Optional
+                from: 'test@https://ecto-front.vercel.app'
+              }
+            },
+          ]
+        }
+    },
     graphql: {
       config: {
         endpoint: '/graphql',
