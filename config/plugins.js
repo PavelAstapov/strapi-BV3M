@@ -49,7 +49,7 @@ module.exports = ({ env }) => ({
               enabled: true,
               config: {
                 subject: "Mail from Next.js & Strapi", // Optional
-                from: 'test@https://ecto-front.vercel.app'
+                from: 'test@ecto-front.vercel.app'
               }
             },
           ]

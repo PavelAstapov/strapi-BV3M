@@ -21,6 +21,17 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::article.article"
+    },
+    "sponsorLink": {
+      "type": "string",
+      "required": false
+    },
+    "sponsorImg": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }
