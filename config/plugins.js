@@ -68,7 +68,7 @@ module.exports = ({ env }) => ({
           {
             name: 'api::article.article',
             index: 'Itransition test',
-            fields: ['id', 'tag', 'url', 'content'],
+            fields: ['id', 'title', 'url', 'previewText'],
           }
         ],
       },
