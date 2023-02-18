@@ -4,7 +4,8 @@
   "info": {
     "singularName": "fashion-and-style",
     "pluralName": "fashion-and-styles",
-    "displayName": "Fashion & style"
+    "displayName": "Fashion & style",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -22,7 +23,8 @@
     "seo": {
       "type": "component",
       "repeatable": false,
-      "component": "shared.seo"
+      "component": "shared.seo",
+      "required": true
     }
   }
 }

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "food-and-wellness",
     "pluralName": "food-and-wellnesses",
-    "displayName": "Food & wellness"
+    "displayName": "Food & wellness",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -22,7 +23,8 @@
     "seo": {
       "type": "component",
       "repeatable": false,
-      "component": "shared.seo"
+      "component": "shared.seo",
+      "required": true
     }
   }
 }
