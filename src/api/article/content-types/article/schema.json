@@ -23,7 +23,8 @@
     },
     "content": {
       "type": "richtext",
-      "required": true
+      "required": true,
+      "minLength": 10
     },
     "author": {
       "type": "relation",
